@@ -1,5 +1,6 @@
 :root {
   --branding-color: #6c63ff;
+  --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -95,4 +96,15 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
